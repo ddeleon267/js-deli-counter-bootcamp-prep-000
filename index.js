@@ -19,7 +19,7 @@ var array = ['Wiljago', 'Orin', 'Jory', 'Nikolous', 'Hanika', 'Anjie', 'Evan']
 
 function currentLine (queue) {
     var newArray = [];
-    for (i = 0; i <= queue.length; i++) {
+    for (i = 0; i < queue.length; i++) {
     newArray.push(`${i+1}. ${queue[i]}`)
   }
   if (newArray.length > 0) {
