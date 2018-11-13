@@ -1,3 +1,5 @@
+var array = ['Wiljago', 'Orin', 'Jory', 'Nikolous', 'Hanika', 'Anjie', 'Evan'];
+
 function takeANumber (queue, newPerson) {
   queue.push(newPerson);
   return `Welcome, ${newPerson}. You are number ${queue.length} in line.`
@@ -13,10 +15,6 @@ function nowServing (katzDeliLine) {
 }
 
 
-var array = ['Wiljago', 'Orin', 'Jory', 'Nikolous', 'Hanika', 'Anjie', 'Evan']
-
-
-
 function currentLine (queue) {
     var newArray = [];
     for (i = 0; i < queue.length; i++) {
@@ -30,5 +28,6 @@ function currentLine (queue) {
 }
 
 
+nowServing(array);
 
 // queue.slice(0, queue.length - 1).join(', ') + ", and " + queue.slice(-1));
