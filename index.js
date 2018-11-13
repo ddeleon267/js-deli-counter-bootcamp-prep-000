@@ -7,7 +7,7 @@ function takeANumber (queue, newPerson) {
 
 function nowServing (katzDeliLine) {
   if (katzDeliLine.length > 0) {
-    console.log(`Currently serving ${katzDeliLine[0]}.`)
+    return `Currently serving ${katzDeliLine[0]}.`)
     katzDeliLine.shift()
     console.log(katzDeliLine)
   } else {
