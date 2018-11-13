@@ -27,7 +27,3 @@ function currentLine (queue) {
   }
 }
 
-
-nowServing(array);
-
-// queue.slice(0, queue.length - 1).join(', ') + ", and " + queue.slice(-1));
