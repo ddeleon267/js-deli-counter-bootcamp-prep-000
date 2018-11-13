@@ -24,7 +24,7 @@ function currentLine (queue) {
     return `The line is currently: ${newArray.join(`, `)}.`
   } else {
     return `The line is currently empty.`
-  }
+  }
 }
 
 
