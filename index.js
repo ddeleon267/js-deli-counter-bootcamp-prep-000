@@ -26,6 +26,8 @@ function currentLine (queue) {
   if (queue.length > 0) {
     console.log(`The line is currently: ${newArray.join(`, `)}.`)
 
+  } else {
+    return `
   }
 }
 
