@@ -24,7 +24,7 @@ function currentLine (queue) {
   }
   
   if (queue.length > 0) {
-    console.log(`The line is currently: ${queue.join(`,  ${queue.indexOf(`/*/`)}. `)}.`)
+    console.log(`The line is currently: ${newArray.join(`, `)}.`)
 
   }
 }
