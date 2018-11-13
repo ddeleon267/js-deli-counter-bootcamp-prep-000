@@ -24,13 +24,10 @@ function currentLine (queue) {
   }
   if (newArray.length > 0) {
     return `The line is currently: ${newArray.join(`, `)}.`
-
   } else {
     return `The line is currently empty.`
   }
 }
-
-currentLine(array);
 
 
 
