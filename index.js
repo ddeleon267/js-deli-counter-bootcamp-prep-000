@@ -15,9 +15,16 @@ function nowServing (katzDeliLine) {
 
 var array = ['Wiljago', 'Orin', 'Jory', 'Nikolous', 'Hanika', 'Anjie', 'Evan']
 
+
+
 function currentLine (queue) {
+  for (i = 0; i <= queue.length; i++) {
+    var newArray = [];
+    newArray.push(`${i+1}. ${queue[i]}`)
+  }
+  
   if (queue.length > 0) {
-    console.log(`The line is currently: 1. ${queue.join(`,  ${queue.indexOf(`/*/`)}. `)}.`)
+    console.log(`The line is currently: ${queue.join(`,  ${queue.indexOf(`/*/`)}. `)}.`)
 
   }
 }
